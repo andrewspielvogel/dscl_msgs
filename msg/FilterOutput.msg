@@ -19,6 +19,12 @@ uint16 bias_status
 geometry_msgs/Quaternion orientation
 float64[9] orientation_covariance
 
+# 2018-11-15 LLW Added euler [roll, pitch, heading] in radians
+geometry_msgs/Vector3 euler
+
+# 2018-11-15 LLW Added euler [roll, pitch, heading] in degrees
+geometry_msgs/Vector3 euler_degree
+
 # Gyro bias and diagonal covariance
 geometry_msgs/Vector3 bias
 float64[9] bias_covariance
